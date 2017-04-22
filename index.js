@@ -88,5 +88,5 @@ app.post('/api/delete', function (req, res) {
 
 
 app.listen(port, function () {
-  console.log('On port ');
+  console.log('On port' + prot);
 });

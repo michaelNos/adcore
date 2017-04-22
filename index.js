@@ -39,7 +39,7 @@ function GetRows(req, res){
   })
 }
 
-mongoose.connect(process.env.MONGODB_URI ||"mongodb://localhost:27017/adcore", function(err, db){
+mongoose.connect(process.env.MONGODB_URI ||"mongodb://localhost:27017/adcore", function(err){
   if(!err){
     console.log("connected to mongo");
   }
